@@ -1,0 +1,36 @@
+Hi Everyone,
+
+My name is Adam Kurkiewicz and I'm a second year PhD student in the filed of transcriptomics, which is entirely tangential to the field of computer science education, and is not the reason why I'm here. 
+
+I'm here because I took Computer Science in the Classroom in 2015/2016, and I'm considered to be one of the students for whom the course "worked", as it inspired me to start my own computer science and mathematics after-school club, which has been running every Tuesday evening since September 2017, and attracts students from three Glasgow High Schools (two state schools and one private school).
+
+I'm going to say a few words about what in the course worked for me, what didn't, and I'll try to point at a particular worrisome pattern that I, and other students taking the course in my cohort, have noticed in many Glasgow high schools.
+
+As Douglas mentioned in his part of talk, the course has highly vocational nature, with plenty of "hands-on" teaching experience with real pupils and real high-schools. I consider this to be the golden standard for running such course, in the way I consider it to be a golden standard for a programming course to include hands-on laboratory-style programming exercises.
+
+Replacing lectures with a weekly seminar I have mixed feelings about. The idea is that through opening the floor to discussion, and relating the discussion to student's journal entries, the students will reflect on and improve their teaching skills. In practice I found this to be helpful at the beginning of my teaching experience, but after a couple of visits in the school, both me and the pupils found a satisfactory way to work together, and I didn't feel like this sort of "reflective practice" provided much stimulus for my learning how to teach. What I would prefer is a few lectures based on a selection of research articles on computer science education followed by in-class discussion. This could possibly have enriched the repertoir of teaching techniques I had used in the school more efficiently than peer discussion.
+
+While teaching in the school both me, and my wife, who also took the course, and various other students who paricipated in the weekly seminar noticed a worrisome pattern in our pupils, which, for the lack of a better word I will call "failure to generalise".
+
+Let me give an example of an interaction which happened between me and a 6th year on one particularly rainy Glasgow morning. I was supposed to be teaching students various sorting algorithms, including Selection Sort, but I soon realised that their programming skills weren't sufficient to understand what I was trying to teach them.
+
+I decided to go back a little bit and asked one of the students to implement a prerequisite of many sorting algorithms: the minimum element algorithm, which walks through an array, keeping the current minimum element in a helper variable, updating the variable with progressively lower values, until it contains the true minimum, which we can return at the end of the iteration.
+
+To my great astonishment the student flawlessly typed a solution into the computer right in front my eyes. I couldn't believe this was the same student who couldn't grasp a simple sorting algorithm just a minute before! I asked her to modify the algorithm to return the index of the minimum element as opposed to the minimum element itself. And she couldn't do it, even with substantial hints.
+
+What turns out to have happened is the student successfuly memorised the minimum element algorithm for one of her previous computer science exams, but failed to generalise the algorithm into a useful abstraction she could succsessfuly apply to a problem of similar type.
+
+The example I just gave is very specific, but I assure you that "failure to generalise" is a wide-spread phenomenon. I'd like to be able to pin-point the exact cause of this worrisome pattern, but I had not the opporutunity to properly study it yet.
+
+My gut feeling is that the problem is related to the quality of teachers, which directly affected by the brain-drain of Computer Science graduates into well paid, interesting jobs in the industry, as well as red tape around teaching jobs, such as postgraduate certificate in education.
+
+Another possiblity is that failure to generalise is caused by over-specified syllabus. It's perhaps worth noting that some of the most stimulating computer science and mathematics exams, such as British Informatics Olympiad or British Mathematical Olympiad do not have a set syllabus. This allows for inclusion of innovative questions, which promotes generalisation and abstraction-forming skills in students who undertake such exams.
+
+I hope this perspective on Computer Science in the Classroom and High School teaching is a useful voice in the discussion, and if you'd like to use any of the teaching material I've developed for my students, please follow one of those links:
+
+Selection Sort and pre-requisites (Visual Basic -- sorry!):
+https://github.com/picrin/SelectionSortVB
+https://github.com/picrin/practicingFoundations
+
+A really good workshop on virtual machines ("virtual machine" in the sense of Java, not in the sense of VirtualBox):
+https://github.com/picrin/VMWorkshops/
